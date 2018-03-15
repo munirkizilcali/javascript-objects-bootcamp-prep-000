@@ -8,3 +8,5 @@ function removeFromPlaylist(obj, aName) {
   delete obj.[aName]
   return obj
 }
+
+console.log(removeFromPlaylist(playlist,`artistName`))
