@@ -9,4 +9,4 @@ function removeFromPlaylist(objat, aName) {
   //return obj
 }
 
-console.log(removeFromPlaylist(playlist,artistName))
+console.log(removeFromPlaylist(playlist,`artistName`))
